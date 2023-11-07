@@ -1,14 +1,25 @@
- @import url('https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
-*{
-  margin: 0;
-  padding: 0;
-}
-html,body {
-  width:100%;
-  margin: 0;
-  font-family: 'Signika', sans-serif;
-}
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+  @layer base{
+
+    *{
+      @apply p-0;
+      @apply m-0;
+    }
+    html,body{
+       @apply font-Raleway;
+       @apply w-full;
+    }
+
+    li{
+        @apply cursor-pointer;
+        @apply px-4;
+        @apply font-semibold;
+    }
+  }
