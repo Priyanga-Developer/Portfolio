@@ -13,7 +13,7 @@ const Home = () => {
                 <h3 className=' text-2xl  py-4 sm:text-base font-semibold'>Hi! I'm Priyanga! </h3>
                 <p className='py-4 font-semibold max-w-md'>A passionate Front-end React Developer based in Bangalore,India </p>
                 <div className=' flex items-center gap-3 py-6'>
-                  <a href='https://www.w3schools.com/' target='_blank' rel='noreferrer'> <FaLinkedin className=' text-2xl hover:scale-150 duration-500 cursor-pointer text-[#0a66c2]'/> </a> 
+                  <a href='https://www.linkedin.com/in/priyanga-muthuraman/' target='_blank' rel='noreferrer'> <FaLinkedin className=' text-2xl hover:scale-150 duration-500 cursor-pointer text-[#0a66c2]'/> </a> 
                   <a href='https://www.w3schools.com/'target='_blank'  rel='noreferrer'> <FaGithub className=' text-2xl hover:scale-150 duration-500 cursor-pointer text-[#171515]'/> </a> 
                 </div>
                 <div className=' w-full flex gap-4  py-8 '>
