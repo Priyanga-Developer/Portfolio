@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {  FaTimes } from "react-icons/fa";
 import {   GiHamburgerMenu   } from "react-icons/gi";
+import {Link} from "react-scroll";
 
 
 const NavBar = () => {
@@ -10,33 +11,34 @@ const NavBar = () => {
     setNav(!nav);
   }
   return (
-    <header className='sticky top-0 w-full h-[80px] flex justify-between items-center bg-[#fbfcfd] shadow-[0px_8px_21px_#e8e8f1] p-11 ' >
+    <header className='fixed top-0 w-full h-[80px] flex justify-between items-center bg-[#fbfcfd] shadow-[0px_8px_21px_#e8e8f1] py-11 px-16 ' >
         {/* logo */}
         <div className='flex items-center justify-center gap-3'>
-            {/* <BsDiscFill className='w-8 h-8 text-[#0a0517]'/> */}
-             <h1 className=" text-[20px] font-semibold cursor-pointer">Priya.Dev</h1>
+            
+        <Link to="home" smooth duration={500} offset={-100} ><h1 className=" text-[40px] font-Signature  font-extrabold cursor-pointer">Priya</h1></Link>
         </div>
          {/* menu-list */}
             <ul className=' hidden md:flex justify-center items-center gap-4'>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <Link to="home" smooth duration={500} offset={-100} ><li className='hover:text-blue-600 duration-500'>Home</li></Link>
+                <Link to="about" smooth duration={500} offset={-100} ><li className='hover:text-blue-600 duration-500'>About</li></Link>
+                <Link to="portfolio" smooth duration={500} offset={-100} ><li className='hover:text-blue-600 duration-500'>Projects</li></Link>
+                <Link to="contact" smooth duration={500} offset={-90} ><li className='hover:text-blue-600 duration-500'>Contact</li></Link>
+
             </ul>
 
         {/* Hamburger */}
-        <div onClick={handleOnclick} className='md:hidden z-10 cursor-pointer'>
+        <div onClick={handleOnclick} className='md:hidden cursor-pointer'>
              {!nav ?<GiHamburgerMenu/>:<FaTimes/> }
             
         </div>
 
         {/* Mobile Menu */}
-        <div className={!nav?'hidden':'absolute  top-20 left-0 w-full h-screen bg-[#f6f7f9]' }>
-        <ul className=' flex items-center justify-center flex-col gap-5 '>
-                <li className='py-6 text-2xl'>Home</li>
-                <li className='py-6 text-2xl'>About</li>
-                <li className='py-6 text-2xl'>Projects</li>
-                <li className='py-6 text-2xl'>Contact</li>
+        <div className={!nav?'hidden':'absolute  top-20 left-0 w-full h-screen bg-[#f6f7f9] ' }>
+        <ul className=' flex items-center justify-center flex-col gap-5'>
+        <Link onClick={()=>setNav(!nav)} to="home" smooth duration={500} offset={-100}><li className='py-6 text-2xl '>Home</li></Link>
+        <Link onClick={()=>setNav(!nav)} to="about" smooth duration={500} offset={-100}><li className='py-6 text-2xl'>About</li></Link>
+        <Link onClick={()=>setNav(!nav)} to="portfolio" smooth duration={500} offset={-100} > <li className='py-6 text-2xl'>Projects</li></Link>
+        <Link onClick={()=>setNav(!nav)}  to="contact" smooth duration={500} offset={-90} > <li className='py-6 text-2xl'>Contact</li></Link>
         </ul>
         </div>
 
