@@ -2,7 +2,7 @@ import React from 'react'
 import { FaLinkedin,FaGithub } from "react-icons/fa6";
 import {  PiHandWavingFill } from "react-icons/pi";
 import Logo from "../Assets/myPic.jpeg"
-import { BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoReact,BiLogoTailwindCss} from "react-icons/bi";
+import { BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoReact,BiLogoTailwindCss,BiLogoBootstrap} from "react-icons/bi";
 
 const Home = () => {
   return (
@@ -17,12 +17,14 @@ const Home = () => {
                   <a href='https://www.w3schools.com/'target='_blank'  rel='noreferrer'> <FaGithub className=' text-2xl hover:scale-150 duration-500 cursor-pointer text-[#171515]'/> </a> 
                 </div>
                 <div className=' w-full flex gap-4  py-8 '>
-                            <h3 className='text-[15px] font-bold self-center'>Tech Stack </h3>
+                            <h3 className='text-[15px] font-bold self-center'>Tech Stack |</h3>
                             <BiLogoHtml5 className='text-[25px] text-[#e34c26] sm:text-[30px] '/>
                             <BiLogoCss3 className='text-[25px] text-[#264de4] sm:text-[30px]'/>
+                            <BiLogoBootstrap className='text-[25px] text-[#563d7c] sm:text-[30px]' />
                             <BiLogoJavascript className='text-[25px] text-[#F0DB4F] bg-black sm:text-[30px]'/>
-                            <BiLogoReact className='text-[25px] text-[#61DBFB] sm:text-[30px]'/>
+                            <BiLogoReact className='text-[25px] text-[#61DBFB] sm:text-[30px]'/> 
                             <BiLogoTailwindCss className='text-[25px] text-[#3490dc] sm:text-[30px]'/>
+                            
             </div>
             </div>
 

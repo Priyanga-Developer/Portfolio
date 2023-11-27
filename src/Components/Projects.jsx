@@ -13,7 +13,10 @@ const Projects = () => {
                               src:Ecommerce,
                               details:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laudantium distinctio corporis? Quis iure quae quod porro vero impedit doloribus recusandae minus, eos itaque laudantium nemo autem vel nulla ex, incidunt alias ut architecto quaerat assumenda ducimus? Provident non dolor at numquam, eius, minima minus quis amet ipsa, expedita reprehenderit.",
                               tech1:"HTML",
-                              tech2:"CSS"
+                              tech2:"CSS",
+                              tech3:"Javascript",
+                              tech4:"API",
+
                             },
                             {
                               id:2,
@@ -39,7 +42,7 @@ const Projects = () => {
               <p className='text-xl  font-bold inline text-[black] py-4'>Check out my work right here</p>
         
                 <div className='grid  gap-36 px-12 pt-10 '>
-                  {portfolios.map(({id,src,details,tech1,tech2,tech3})=>
+                  {portfolios.map(({id,src,details,tech1,tech2,tech3,tech4})=>
                                 <div key={id} className='flex flex-col justify-center items-center lg:flex-row lg:gap-6'>
                                 <div className='md:w-1/2  w-[100%] h-[100%]'>
                                         <img src={src} alt='projectdemo' className='object-cover w-[100%] h-[100%]' />
@@ -52,6 +55,7 @@ const Projects = () => {
                                                         <p>{tech1}</p>
                                                         <p>{tech2}</p>
                                                         <p>{tech3}</p>
+                                                        <p>{tech4}</p>
                                                 </div>
                                                 <div className='flex justify-center items-center gap-4 '>
                                                       <a className='flex items-center justify-center text-[14px] font-semibold' href='https://www.w3schools.com/' target='_blank' rel='noreferrer'> <BiLogoGithub className=' text-xl'/>Code</a>
