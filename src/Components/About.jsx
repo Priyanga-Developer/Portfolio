@@ -7,8 +7,8 @@ const About = () => {
             <div className=' pb-8'>
                 <p className=' text-2xl  font-bold inline text-blue-600'>ABOUT ME</p>
             </div>
-            <p className='text-xl mt-10'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, suscipit. Nobis nesciunt quia ducimus quas enim eveniet et quod. Consequatur amet magnam a aliquid officia iusto atque architecto fugiat sequi.
+            <p className='text-xl mt-10 font-semibold'>
+                Hello,I am Priyanga,and currently ,am learning a web development course.Throughout this comprehensive program,I have delved into essential technologies like HTML,CSS,Javascript and React.Along the way,I have successfully completed numerous projects assigned during the course and even took the initiative to work on some personal projects independently.
             </p>
             <br/>
         </div>
