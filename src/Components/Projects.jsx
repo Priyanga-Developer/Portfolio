@@ -42,7 +42,7 @@ const Projects = () => {
               <p className='text-2xl  font-bold inline text-blue-600 py-2' >PORTFOLIO</p>
               <p className='text-xl  font-bold inline text-[black] py-4'>Check out my work right here</p>
         
-                <div className='grid  gap-36 px-12 pt-10 '>
+                <div className='grid justify-center items-center gap-36 px-12 pt-10 '>
                   {portfolios.map(({id,title,src,details,tech1,tech2,tech3,tech4,tech5,tech6,code,demo})=>
                                 <div key={id} className='flex flex-col justify-center items-center lg:flex-row lg:gap-6'>
                                 <div className='md:w-1/2  w-[100%] h-[100%]'>

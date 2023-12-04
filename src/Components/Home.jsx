@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             </div>
 
-            <div className=' w-[30%] rounded-full '>
+            <div className=' sm:w-[30%] rounded-full '>
                 <img src={Logo} alt="My Profile" className='rounded-full object-cover float-right'/>
             </div>
         </div>
