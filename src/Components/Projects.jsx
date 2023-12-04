@@ -36,7 +36,7 @@ const Projects = () => {
 
                       ]
   return (
-    <div name="portfolio" className='w-full bg-white px-9 '>
+    <div name="portfolio" className='w-full bg-white px-12 md:p-16 '>
          
         <div className=' max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full'>
               <p className='text-2xl  font-bold inline text-blue-600 py-2' >PORTFOLIO</p>
@@ -44,7 +44,7 @@ const Projects = () => {
         
                 <div className='grid justify-center items-center gap-36 px-12 pt-10 '>
                   {portfolios.map(({id,title,src,details,tech1,tech2,tech3,tech4,tech5,tech6,code,demo})=>
-                                <div key={id} className='flex flex-col justify-center items-center lg:flex-row lg:gap-6'>
+                                <div key={id} className='flex flex-col justify-center items-center lg:flex-row md:gap-6 md:flex-row'>
                                 <div className='md:w-1/2  w-[100%] h-[100%]'>
                                         <img src={src} alt='projectdemo' className='object-cover w-[100%] h-[100%]' />
                                 </div>
