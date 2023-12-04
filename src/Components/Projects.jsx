@@ -44,7 +44,7 @@ const Projects = () => {
         
                 <div className='grid justify-center items-center gap-36 px-12 pt-10 '>
                   {portfolios.map(({id,title,src,details,tech1,tech2,tech3,tech4,tech5,tech6,code,demo})=>
-                                <div key={id} className='flex flex-col justify-center items-center lg:flex-row md:gap-6 md:flex-row'>
+                                <div key={id} className='flex flex-col justify-center items-center lg:flex-row lg:gap-6 '>
                                 <div className='md:w-1/2  w-[100%] h-[100%]'>
                                         <img src={src} alt='projectdemo' className='object-cover w-[100%] h-[100%]' />
                                 </div>
