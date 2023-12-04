@@ -32,7 +32,7 @@ const NavBar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={!nav?'hidden':'absolute  top-20 left-0 w-full h-screen bg-[#f6f7f9] ' }>
+        <div className={!nav?'hidden':'absolute  top-20 left-0 w-full !h-screen bg-[#f6f7f9] ' }>
         <ul className=' flex items-center justify-center flex-col gap-5'>
         <Link onClick={()=>setNav(!nav)} to="home" smooth duration={500} offset={-100}><li className='py-6 text-2xl '>Home</li></Link>
         <Link onClick={()=>setNav(!nav)} to="portfolio" smooth duration={500} offset={-100} > <li className='py-6 text-2xl'>Projects</li></Link>

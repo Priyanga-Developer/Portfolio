@@ -6,7 +6,7 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div className="App w-full  overflow-x-hidden" >
+    <div className="App w-full overflow-hidden " >
             <NavBar/>
             <Home/>
             {/* <About/> */}

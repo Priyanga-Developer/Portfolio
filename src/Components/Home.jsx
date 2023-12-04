@@ -6,7 +6,7 @@ import { BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoReact,BiLogoTailwindCss,B
 
 const Home = () => {
   return (
-    <div name='home' className=' h-screen w-full px-12 pt-24 sm:pt-56 md:p-16'>
+    <div name='home' className='  w-full px-12 pt-24 sm:pt-56 md:p-16'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row  '>
             <div className=' flex flex-col  justify-center h-full'>
                 <h1 className=' font-extrabold text-5xl'>Front-End Developer<PiHandWavingFill className='text-[#f7d4bd] inline-block  '/></h1>
