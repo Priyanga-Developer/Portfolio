@@ -20,7 +20,6 @@ const NavBar = () => {
          {/* menu-list */}
             <ul className=' hidden md:flex justify-center items-center gap-4'>
                 <Link to="home" smooth duration={500} offset={-100} ><li className='hover:text-blue-600 duration-500'>Home</li></Link>
-                <Link to="about" smooth duration={500} offset={-100} ><li className='hover:text-blue-600 duration-500'>About</li></Link>
                 <Link to="portfolio" smooth duration={500} offset={-100} ><li className='hover:text-blue-600 duration-500'>Projects</li></Link>
                 <Link to="contact" smooth duration={500} offset={-90} ><li className='hover:text-blue-600 duration-500'>Contact</li></Link>
 
