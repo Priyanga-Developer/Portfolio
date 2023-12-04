@@ -35,7 +35,6 @@ const NavBar = () => {
         <div className={!nav?'hidden':'absolute  top-20 left-0 w-full h-screen bg-[#f6f7f9] ' }>
         <ul className=' flex items-center justify-center flex-col gap-5'>
         <Link onClick={()=>setNav(!nav)} to="home" smooth duration={500} offset={-100}><li className='py-6 text-2xl '>Home</li></Link>
-        <Link onClick={()=>setNav(!nav)} to="about" smooth duration={500} offset={-100}><li className='py-6 text-2xl'>About</li></Link>
         <Link onClick={()=>setNav(!nav)} to="portfolio" smooth duration={500} offset={-100} > <li className='py-6 text-2xl'>Projects</li></Link>
         <Link onClick={()=>setNav(!nav)}  to="contact" smooth duration={500} offset={-90} > <li className='py-6 text-2xl'>Contact</li></Link>
         </ul>
