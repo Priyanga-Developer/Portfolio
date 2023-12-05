@@ -8,8 +8,21 @@ import Xpenstrac from "../Assets/xpenstrac.png";
 
 const Projects = () => {
 
-  const portfolios=[       {
+  const portfolios=[     
+                            {
                               id:1,
+                              title:"Xpenstrac",
+                              src:Xpenstrac,
+                              details:"XpensTrac is an expense tracker app that manages our daily expenses and income.Used Context API hook for state management and custom hooks for fetching data from the users.Furthermore, incorporated firebase for authentication and data storage as backend service. Integrated Toastify into the app, enhancing user experience with informative notifications.",
+                              code:"https://github.com/Priyanga-Developer/XpensTrac",
+                              demo: "https://xpenstrac.netlify.app",
+                              tech1:"React",
+                              tech2:"React Routers",
+                              tech3:"Firebase",
+                              tech4:"Toastify"
+                            },
+                            {
+                              id:2,
                               title:"Shopee.App",
                               src:Ecommerce,
                               details:"Users can browse, filter, add products to cart and checkout billing and shipping information.Utilized HTML, CSS and JavaScript to create the website’s frontend, incorporated API integration for product data retrieval, implanted ES6 features for efficient code.Fetched real-time product details through asynchronous function using API fetch",  
@@ -20,18 +33,6 @@ const Projects = () => {
                               tech3:"Javascript",
                               tech4:"API",
                               tech5:"ES6"
-                            },
-                            {
-                              id:2,
-                              title:"Xpenstrac",
-                              src:Xpenstrac,
-                              details:"XpensTrac is an expense tracker app that manages our daily expenses and income.Used Context API hook for state management and custom hooks for fetching data from the users.Furthermore, incorporated firebase for authentication and data storage as backend service. Integrated Toastify into the app, enhancing user experience with informative notifications.",
-                              code:"https://github.com/Priyanga-Developer/XpensTrac",
-                              demo: "https://xpenstrac.netlify.app",
-                              tech1:"React",
-                              tech2:"React Routers",
-                              tech3:"Firebase",
-                              tech4:"Toastify"
                             },
 
                       ]
