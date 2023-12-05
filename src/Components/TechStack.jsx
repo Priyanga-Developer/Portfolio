@@ -55,11 +55,8 @@ const TechStack = () => {
                                   <Tag className={` w-20 text-[100px]  sm:text-[120px] ${textColour} `}/>
                                   </div>
                               }
-                              )}
-                          
-                       
-                            </div>
-                            
+                              )}        
+                            </div>                  
             </div>
        
     </div>
