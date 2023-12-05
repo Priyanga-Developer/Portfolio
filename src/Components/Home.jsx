@@ -16,7 +16,7 @@ const Home = () => {
                 <p className='py-4 font-semibold  leading-[1.8] max-w-md'>A passionate Front-end React Developer based in Bangalore,India  Hello,I am Priyanga,and currently ,am learning a web development course.Throughout this comprehensive program,I have delved into essential technologies like HTML,CSS,Javascript and React.</p>
                 <div className=' flex items-center gap-5 py-6'>
                   <a href='https://www.linkedin.com/in/priyanga-muthuraman/' target='_blank' rel='noreferrer'> <FaLinkedin className=' text-4xl  hover:scale-150 duration-500 cursor-pointer text-[#0a66c2]'/> </a> 
-                  <a href='https://www.w3schools.com/'target='_blank'  rel='noreferrer'> <FaGithub className=' text-4xl hover:scale-150 duration-500 cursor-pointer text-[#171515]'/> </a>
+                  <a href='https://github.com/Priyanga-Developer'target='_blank'  rel='noreferrer'> <FaGithub className=' text-4xl hover:scale-150 duration-500 cursor-pointer text-[#171515]'/> </a>
                   <a href='https://www.w3schools.com/'target='_blank'  rel='noreferrer'> <BiLogoGmail className=' text-4xl  hover:scale-150  duration-500 cursor-pointer text-[#DB4437]'/> </a> 
                 </div>
              
