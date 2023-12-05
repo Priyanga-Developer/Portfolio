@@ -6,7 +6,7 @@ import { BiLogoCss3,BiLogoJavascript,BiLogoHtml5,BiLogoReact,BiLogoTailwindCss,B
 
 const Home = () => {
   return (
-    <div name='home' className='  w-full px-12 pt-24 sm:pt-56 md:p-16 md:pt-[9rem]'>
+    <div name='home' className='  w-full px-12 pt-[11rem] sm:pt-56 md:p-16 md:pt-[11rem]'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row  '>
             <div className=' flex flex-col  justify-center h-full'>
                 <h1 className=' font-extrabold text-5xl'>Front-End Developer<PiHandWavingFill className='text-[#f7d4bd] inline-block  '/></h1>
@@ -18,17 +18,19 @@ const Home = () => {
                 </div>
                 <div className=' w-full flex gap-4  py-8 '>
                             <h3 className='text-[15px] font-bold self-center'>Tech Stack |</h3>
+                            <div className=' w-full grid grid-cols-4 gap-4'>
                             <BiLogoHtml5 className='text-[25px] text-[#e34c26] sm:text-[30px] '/>
                             <BiLogoCss3 className='text-[25px] text-[#264de4] sm:text-[30px]'/>
                             <BiLogoBootstrap className='text-[25px] text-[#563d7c] sm:text-[30px]' />
                             <BiLogoJavascript className='text-[25px] text-[#F0DB4F] bg-black sm:text-[30px]'/>
                             <BiLogoReact className='text-[25px] text-[#61DBFB] sm:text-[30px]'/> 
                             <BiLogoTailwindCss className='text-[25px] text-[#3490dc] sm:text-[30px]'/>
+                            </div>
                             
             </div>
             </div>
 
-            <div className=' sm:w-[30%] rounded-full '>
+            <div className=' md:w-[40%] rounded-full '>
                 <img src={Logo} alt="My Profile" className='rounded-full object-cover float-right'/>
             </div>
         </div>
