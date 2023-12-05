@@ -10,7 +10,7 @@ import Logo from "../Assets/myPic.jpeg"
 const Home = () => {
   return (
     <div name='home' className='  w-full px-12 pt-[11rem] sm:pt-56 md:p-16 md:pt-[11rem]'>
-        <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row  '>
+        <div className='max-w-screen-lg mx-auto flex flex-col-reverse gap-16 items-center justify-center h-full px-4 md:flex-row  '>
             <div className=' flex flex-col  justify-center h-full'>
                 <h1 className=' font-extrabold text-5xl'>Front-End Developer<PiHandWavingFill className='text-[#f7d4bd] inline-block  '/></h1>
                 <h3 className=' text-2xl  py-4 sm:text-base font-semibold'>Hi! I'm Priyanga! </h3>
@@ -19,7 +19,7 @@ const Home = () => {
                   <a href='https://www.linkedin.com/in/priyanga-muthuraman/' target='_blank' rel='noreferrer'> <FaLinkedin className=' text-4xl  hover:scale-150 duration-500 cursor-pointer text-[#0a66c2]'/> </a> 
                   <a href='https://github.com/Priyanga-Developer'target='_blank'  rel='noreferrer'> <FaGithub className=' text-4xl hover:scale-150 duration-500 cursor-pointer text-[#171515]'/> </a>
                   <a href='mailto:uthirapriyanga@gmail.com'target='_blank'  rel='noreferrer'> <BiLogoGmail className=' text-4xl  hover:scale-150  duration-500 cursor-pointer text-[#DB4437]'/> </a> 
-                  <a href='./Priyanga_Developer.pdf'target='_blank'  rel='noreferrer' download='true' className=' group w-28 h-12  flex items-center justify-around   duration-500  hover:w-48 hover:bg-[#efedfb]' > 
+                  <a href='./Priyanga_Developer.pdf'target='_blank'  rel='noreferrer' download='true' className=' group w-28 h-12  flex items-center justify-around   duration-500  hover:w-36 hover:bg-[#efedfb]' > 
                   <BsFillPersonLinesFill className=' text-4xl  cursor-pointer text-[#161e66]'/>
                   <><p className=' invisible font-semibold text-base group-hover:visible'> Resume</p></>
                    </a> 
@@ -28,7 +28,7 @@ const Home = () => {
              
             </div>
 
-            <div className=' md:w-[33%] rounded-full '>
+            <div className=' md:w-[33%] rounded-full sm:w-[50%] '>
                 <img src={Logo} alt="My Profile" className='rounded-full object-cover float-right'/>
             </div>
            
