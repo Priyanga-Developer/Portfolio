@@ -45,9 +45,9 @@ const TechStack = () => {
     <div name="techStack" className='w-full   px-12   pt-[11rem] sm:pt-56 md:p-16 md:pt-[11rem]'>
         <div className='max-w-screen-lg mx-auto  w-full h-full flex flex-col justify-center items-start py-14'>
           <div>
-                            <h3 className='text-[20px] font-bold self-center py-3'>TECH STACK |</h3>
+          <p className='text-2xl  font-bold inline text-blue-600'>TECH STACK</p>
          </div>
-                            <div className=' w-full justify-center items-center grid grid-cols-2 sm:grid-cols-3 text-center gap-8 py-8 sm:px-0'>
+                            <div className=' w-full justify-center items-center grid grid-cols-2 sm:grid-cols-6 text-center gap-8 py-8 sm:px-0'>
                               {techs.map(({id,element,textColour,style})=>{
                                 const Tag=element
                                 return  <div className={`shadow-md hover:scale-105 cursor-pointer duration-500 py-2 rounded-lg justify-center items-center flex ${style}`} key={id}>
