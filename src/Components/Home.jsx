@@ -2,6 +2,7 @@ import React from 'react'
 import { FaLinkedin,FaGithub } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import {  PiHandWavingFill } from "react-icons/pi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../Assets/myPic.jpeg"
 
 
@@ -18,6 +19,11 @@ const Home = () => {
                   <a href='https://www.linkedin.com/in/priyanga-muthuraman/' target='_blank' rel='noreferrer'> <FaLinkedin className=' text-4xl  hover:scale-150 duration-500 cursor-pointer text-[#0a66c2]'/> </a> 
                   <a href='https://github.com/Priyanga-Developer'target='_blank'  rel='noreferrer'> <FaGithub className=' text-4xl hover:scale-150 duration-500 cursor-pointer text-[#171515]'/> </a>
                   <a href='mailto:uthirapriyanga@gmail.com'target='_blank'  rel='noreferrer'> <BiLogoGmail className=' text-4xl  hover:scale-150  duration-500 cursor-pointer text-[#DB4437]'/> </a> 
+                  <a href='./Priyanga_Developer.pdf'target='_blank'  rel='noreferrer' download='true' className=' group w-28 h-12  flex items-center justify-around   duration-500  hover:w-48 hover:bg-[#efedfb]' > 
+                  <BsFillPersonLinesFill className=' text-4xl  cursor-pointer text-[#161e66]'/>
+                  <><p className=' invisible font-semibold text-base group-hover:visible'> Resume</p></>
+                   </a> 
+
                 </div>
              
             </div>
