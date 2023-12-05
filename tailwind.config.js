@@ -8,6 +8,9 @@ module.exports = {
          Signature:[ 'Great Vibes', 'cursive'],
        
       },
+      colors: {
+        'tailwind': '#3490dc',
+      },
     },
   },
   plugins: [],
