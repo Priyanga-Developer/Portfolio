@@ -39,7 +39,7 @@ const Projects = () => {
     <div name="portfolio" className='w-full bg-white px-12 md:p-16 '>
          
         <div className=' max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full'>
-              <p className='text-2xl  font-bold inline text-blue-600 py-2' >PORTFOLIO</p>
+              <p className='text-2xl  font-bold inline text-blue-600 py-2' >PROJECTS</p>
               <p className='text-xl  font-bold inline text-[black] py-4'>Check out my work right here</p>
         
                 <div className='grid justify-center items-center gap-36 px-12 pt-10 '>

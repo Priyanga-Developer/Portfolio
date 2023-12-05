@@ -45,7 +45,7 @@ const TechStack = () => {
     <div name="techStack" className='w-full   px-12   pt-[11rem] sm:pt-56 md:p-16 md:pt-[11rem]'>
         <div className='max-w-screen-lg mx-auto  w-full h-full flex flex-col justify-center items-start py-14'>
           <div>
-          <p className='text-2xl  font-bold inline text-blue-600'>TECH STACK</p>
+          <p className='text-2xl  font-bold inline text-blue-600'>TECH STACKS</p>
          </div>
                             <div className=' w-full justify-center items-center grid grid-cols-2 sm:grid-cols-6 text-center gap-8 py-8 sm:px-0'>
                               {techs.map(({id,element,textColour,style})=>{
