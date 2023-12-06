@@ -4,10 +4,31 @@ import { BiLogoGmail } from "react-icons/bi";
 import {  PiHandWavingFill } from "react-icons/pi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../Assets/myPic.jpeg"
+import {motion } from "framer-motion"
 
 
 
 const Home = () => {
+
+  const imageVariants = {
+    initial: {
+      borderRadius: '60% 40% 30% 70%/60% 30% 60% 40%',
+      transition: {
+        duration: 2,
+        repeat: Infinity
+      },
+    },
+    animate: {
+      borderRadius: ['60% 40% 30% 70%/60% 30% 60% 40% ', '30% 60% 70% 40%/50% 60% 30% 60%', '60% 40% 30% 70%/60% 30% 70% 40%'] ,
+      transition: {
+        duration: 8,
+        times: [0, 0.5, 1],
+        ease: 'easeInOut',
+        repeat: Infinity
+        
+      },
+    }
+  }
   return (
     <div name='home' className='  w-full px-12 pt-[11rem] sm:pt-56 md:p-16 md:pt-[11rem]'>
         <div className='max-w-screen-lg mx-auto flex flex-col-reverse gap-16 items-center justify-center h-full px-4 md:flex-row  '>
@@ -28,8 +49,11 @@ const Home = () => {
              
             </div>
 
-            <div className=' md:w-[33%] rounded-full sm:w-[50%] '>
-                <img src={Logo} alt="My Profile" className='rounded-full object-cover float-right'/>
+            <div  className=' md:w-[33%] rounded-full sm:w-[50%] '>
+                < motion.img src={Logo} alt="My Profile"
+                initial="initial"
+                animate="animate"
+                variants={imageVariants} className=' object-cover float-right'/>
             </div>
            
         </div>
