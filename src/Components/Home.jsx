@@ -31,7 +31,7 @@ const Home = () => {
   }
   return (
     <div name='home' className='  w-full px-12 pt-[11rem] sm:pt-56 md:p-16 md:pt-[11rem]'>
-        <div className='max-w-screen-lg mx-auto flex flex-col-reverse gap-16 items-center justify-center h-full px-4 md:flex-row  '>
+        <div className='max-w-screen-lg mx-auto flex flex-col gap-16 items-center justify-center h-full px-4 md:flex-row  '>
             <div className=' flex flex-col  justify-center h-full'>
                 <h1 className=' font-extrabold text-5xl'>Front-End Developer<PiHandWavingFill className='text-[#f7d4bd] inline-block  '/></h1>
                 <h3 className=' text-2xl  py-4 sm:text-base font-semibold'>Hi! I'm Priyanga! </h3>
