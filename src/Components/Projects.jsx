@@ -2,20 +2,20 @@ import React from 'react'
 import { FiExternalLink } from "react-icons/fi";
 import { BiLogoGithub} from "react-icons/bi";
 import Xpenstrac from "../Assets/xpenstrac.png";
-import Ecommerce from '../Assets/ecommerce.png'
-import MovieFlix from '../Assets/movieflix.png'
+import Ecommerce from '../Assets/ecommerce.png';
+import MovieFlix from '../Assets/movieflix.png';
 
 
 
 const Projects = () => {
 
-  const portfolios=[     {
+const portfolios=[   {
                               id:1,
                               title:"MovieFlix",
                               src:MovieFlix,
                               details:" MovieFlix app is a platform where users can watch trailers of movies by genres.Implemented user signup, login, and logout functionalities using Firebase Authentication.Fetched movie data from a movie database API (such as TMDB) and upon selecting a movie,displaying their relevant videos.Utilised Redux for state management,maintaining a centralized store for user's data.",
                               code:"https://github.com/Priyanga-Developer/netflixCloneapp",
-                              demo: "https://xpenstrac.netlify.app",
+                              demo: "https://movieflixclone.netlify.app/",
                               tech1:"React",
                               tech2:"React Routers",
                               tech3:"Firebase",
