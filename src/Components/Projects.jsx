@@ -1,16 +1,30 @@
 import React from 'react'
-import Ecommerce from '../Assets/ecommerce.png'
 import { FiExternalLink } from "react-icons/fi";
 import { BiLogoGithub} from "react-icons/bi";
 import Xpenstrac from "../Assets/xpenstrac.png";
+import Ecommerce from '../Assets/ecommerce.png'
+import MovieFlix from '../Assets/movieflix.png'
 
 
 
 const Projects = () => {
 
-  const portfolios=[     
-                            {
+  const portfolios=[     {
                               id:1,
+                              title:"MovieFlix",
+                              src:MovieFlix,
+                              details:" MovieFlix app is a platform where users can watch trailers of movies by genres.Implemented user signup, login, and logout functionalities using Firebase Authentication.Fetched movie data from a movie database API (such as TMDB) and upon selecting a movie,displaying their relevant videos.Utilised Redux for state management,maintaining a centralized store for user's data.",
+                              code:"https://github.com/Priyanga-Developer/netflixCloneapp",
+                              demo: "https://xpenstrac.netlify.app",
+                              tech1:"React",
+                              tech2:"React Routers",
+                              tech3:"Firebase",
+                              tech4:"Redux",
+                              tech5:"API"
+                          },
+
+                            {
+                              id:2,
                               title:"Xpenstrac",
                               src:Xpenstrac,
                               details:"XpensTrac is an expense tracker app that manages our daily expenses and income.Used Context API hook for state management and custom hooks for fetching data from the users.Furthermore, incorporated firebase for authentication and data storage as backend service. Integrated Toastify into the app, enhancing user experience with informative notifications.",
@@ -22,7 +36,7 @@ const Projects = () => {
                               tech4:"Toastify"
                             },
                             {
-                              id:2,
+                              id:3,
                               title:"Shopee.App",
                               src:Ecommerce,
                               details:"Users can browse, filter, add products to cart and checkout billing and shipping information.Utilized HTML, CSS and JavaScript to create the website’s frontend, incorporated API integration for product data retrieval, implanted ES6 features for efficient code.Fetched real-time product details through asynchronous function using API fetch",  
