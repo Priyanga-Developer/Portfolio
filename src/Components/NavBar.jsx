@@ -4,6 +4,7 @@ import {   GiHamburgerMenu   } from "react-icons/gi";
 import {Link} from "react-scroll";
 
 
+
 const NavBar = () => {
 
   const [nav,setNav]=useState(false);
